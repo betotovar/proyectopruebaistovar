@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="ProyectoCicloTovar1" company="UDL-INFORMATICA-IS-TOVAR" webLink="http://" view-date="2026-09-19" view-index="0" gantt-divider-location="398" resource-divider-location="300" version="2.8.9" locale="es_MX">
+    <description><![CDATA[Fases y Actividades del ciclo de vida de desarrollo de software]]></description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="210" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="85" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="84" order="2"/>
+        <option id="color.recent"><![CDATA[#009900 #0000cc #ff00cc #ff9933 #cc0000 #00ffcc #66ffff #ffff00 #00cc00]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"><![CDATA[New Year's Day]]></date>
+        <date year="" month="5" date="1" type="HOLIDAY"><![CDATA[Labour Day]]></date>
+        <date year="" month="9" date="16" type="HOLIDAY"><![CDATA[Independence Day]]></date>
+        <date year="" month="11" date="1" type="NEUTRAL"><![CDATA[All Saints Day]]></date>
+        <date year="" month="11" date="2" type="NEUTRAL"><![CDATA[Day of the Dead]]></date>
+        <date year="" month="12" date="12" type="HOLIDAY"><![CDATA[Day of the Virgin of Guadalupe]]></date>
+        <date year="" month="12" date="25" type="HOLIDAY"><![CDATA[Christmas Day]]></date>
+        <date year="2016" month="2" date="1" type="HOLIDAY"><![CDATA[Constitution Day]]></date>
+        <date year="2016" month="3" date="14" type="HOLIDAY"><![CDATA[Birthday of Benito Juárez]]></date>
+        <date year="2016" month="3" date="24" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2016" month="3" date="25" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2016" month="11" date="21" type="HOLIDAY"><![CDATA[Revolution Day]]></date>
+        <date year="2017" month="1" date="2" type="HOLIDAY"><![CDATA[New Year's Holiday]]></date>
+        <date year="2017" month="2" date="6" type="HOLIDAY"><![CDATA[Constitution Day]]></date>
+        <date year="2017" month="3" date="20" type="HOLIDAY"><![CDATA[Day off for Benito Juárez's Birthday Memorial]]></date>
+        <date year="2017" month="3" date="21" type="HOLIDAY"><![CDATA[Benito Juárez's Birthday Memorial]]></date>
+        <date year="2017" month="4" date="13" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2017" month="4" date="14" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2017" month="11" date="20" type="HOLIDAY"><![CDATA[Revolution Day]]></date>
+        <date year="2018" month="2" date="5" type="HOLIDAY"><![CDATA[Constitution Day]]></date>
+        <date year="2018" month="3" date="19" type="HOLIDAY"><![CDATA[Benito Juárez's Birthday]]></date>
+        <date year="2018" month="3" date="29" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2018" month="3" date="30" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2018" month="11" date="19" type="HOLIDAY"><![CDATA[Revolution Day]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="I. Planeacion" meeting="false" start="2026-09-19" duration="3" complete="0" expand="true">
+            <task id="10" name="1.1 Introduccion-problematica" color="#00cc00" meeting="false" start="2026-09-19" duration="1" complete="0" thirdDate="2026-09-19" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="1.2 Objetivo SMART" color="#00cc00" meeting="false" start="2026-09-21" duration="1" complete="0" thirdDate="2026-09-21" thirdDate-constraint="0" expand="true"/>
+            <task id="12" name="1.3 Alcance Moduos" color="#00cc00" meeting="false" start="2026-09-22" duration="1" complete="0" thirdDate="2026-09-22" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="2" name="II. Analisis" meeting="false" start="2026-09-23" duration="2" complete="0" expand="true">
+            <task id="13" name="2.1 Analisis de requerimientos" color="#ffff00" meeting="false" start="2026-09-23" duration="1" complete="0" thirdDate="2026-09-23" thirdDate-constraint="0" expand="true"/>
+            <task id="14" name="2.2 Digramas UML Lenguage de Modelado" color="#ffff00" meeting="false" start="2026-09-24" duration="1" complete="0" thirdDate="2026-09-24" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="3" name="III. Diseño" meeting="false" start="2026-09-25" duration="2" complete="0" expand="true">
+            <task id="15" name="3.1 Wireframes" color="#00ffcc" meeting="false" start="2026-09-25" duration="1" complete="0" thirdDate="2026-09-25" thirdDate-constraint="0" expand="true"/>
+            <task id="16" name="3.2 Diseño de base de datos" color="#66ffff" meeting="false" start="2026-09-25" duration="1" complete="0" thirdDate="2026-09-25" thirdDate-constraint="0" expand="true"/>
+            <task id="17" name="3.3 Diseño de interfaces graficas-UX" color="#00ffcc" meeting="false" start="2026-09-26" duration="1" complete="0" thirdDate="2026-09-26" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="4" name="IV. Desarrollo" meeting="false" start="2026-09-28" duration="2" complete="0" expand="true">
+            <task id="18" name="4.1 Programacion de modulos" color="#cc0000" meeting="false" start="2026-09-28" duration="1" complete="0" thirdDate="2026-09-28" thirdDate-constraint="0" expand="true"/>
+            <task id="19" name="4.2 Prototipo inicial" color="#cc0000" meeting="false" start="2026-09-29" duration="1" complete="0" thirdDate="2026-09-29" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="5" name="V. Pruebas" meeting="false" start="2026-09-30" duration="1" complete="0" expand="true">
+            <task id="20" name="5.1 Pruebas unitarias" color="#ff9933" meeting="false" start="2026-09-30" duration="1" complete="0" thirdDate="2026-09-30" thirdDate-constraint="0" expand="true"/>
+            <task id="21" name="5.2 Pruebas sistema UTA Aceptacion" color="#ff9933" meeting="false" start="2026-09-30" duration="1" complete="0" thirdDate="2026-09-30" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="6" name="VI. Implementacion" meeting="false" start="2026-10-01" duration="1" complete="0" expand="true">
+            <task id="22" name="6.1 Ambiente de produccion" meeting="false" start="2026-10-01" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="7" name="VII. Documentacion" meeting="false" start="2026-10-02" duration="1" complete="0" expand="true">
+            <task id="24" name="7.1 Manual de usuario" color="#ff00cc" meeting="false" start="2026-10-02" duration="1" complete="0" thirdDate="2026-10-02" thirdDate-constraint="0" expand="true"/>
+            <task id="25" name="7.1 Manual de instalacion-configuracion" color="#ff00cc" meeting="false" start="2026-10-02" duration="1" complete="0" thirdDate="2026-10-02" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="8" name="VIII. Mantenimiento" meeting="false" start="2026-10-03" duration="1" complete="0" expand="true">
+            <task id="26" name="8.1 Manto. Preventivo" color="#0000cc" meeting="false" start="2026-10-03" duration="1" complete="0" thirdDate="2026-10-03" thirdDate-constraint="0" expand="true"/>
+            <task id="27" name="8.2 Manto. Correctivo" color="#0000cc" meeting="false" start="2026-10-03" duration="1" complete="0" thirdDate="2026-10-03" thirdDate-constraint="0" expand="true"/>
+            <task id="28" name="8.3 Manto. Adaptativo" color="#0000cc" meeting="false" start="2026-10-03" duration="1" complete="0" thirdDate="2026-10-03" thirdDate-constraint="0" expand="true"/>
+            <task id="29" name="8.4 Manto. Perfectivo" color="#0000cc" meeting="false" start="2026-10-03" duration="1" complete="0" thirdDate="2026-10-03" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="9" name="IX. Retroalimentacion" meeting="false" start="2026-10-05" duration="1" complete="9" expand="true">
+            <task id="30" name="9.1 Mejora constinua" color="#009900" meeting="false" start="2026-10-05" duration="1" complete="9" thirdDate="2026-10-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
